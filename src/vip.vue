@@ -3,6 +3,7 @@
   <div>
     <div style="margin-bottom: 20px">
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 10, '2000-2012')">00-12</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 11, 'all')">all</div>
       <!-- <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs', 8, '8031-0832')">31-32</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent2('logs', 7, '0830-0831-time')">0830-0831-time</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent2('logs', 8, '0831-0832-time')">0831-0832-time</div>
@@ -34,6 +35,7 @@ import jsonData7 from './downloaded-logs-20250221-0830-20250221-0831.json'
 import jsonData8 from './downloaded-logs-20250221-0831-20250221-0832.json'
 import jsonData9 from './downloaded-logs-all.json'
 import jsonData10 from './downloaded-logs-20250422-131748.json'
+import jsonData11 from './downloaded-logs-20250422-131748.json'
 export default {
   data() {
     return {
@@ -47,7 +49,8 @@ export default {
         7: jsonData7,
         8: jsonData8,
         9: jsonData9,
-        10: jsonData10
+        10: jsonData10,
+        11: jsonData11
       }
     }
   },
