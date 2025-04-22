@@ -4,6 +4,7 @@
     <div style="margin-bottom: 20px">
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 10, '2000-2012')">00-12</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 11, 'all')">all</div>
+      <div style="cursor:pointer" @click="getContentTotal('1', 11, 'リスト')">total</div>
       <!-- <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs', 8, '8031-0832')">31-32</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent2('logs', 7, '0830-0831-time')">0830-0831-time</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent2('logs', 8, '0831-0832-time')">0831-0832-time</div>
@@ -284,8 +285,7 @@ export default {
       const arr = []
       jsonData.forEach(item => {
         arr.push({
-          dest_ip: item.jsonPayload.connection.dest_ip,
-          src_ip: item.jsonPayload.connection.src_ip
+          requestUrl: this.getNestedValue(item, ['httpRequest', 'requestUrl'])
         })
       })
       const countAndRemoveDuplicatesByFields = (arr, keys) => {
@@ -310,13 +310,13 @@ export default {
         return result
       }
 
-      const result = countAndRemoveDuplicatesByFields(arr, ['dest_ip'])
+      const result = countAndRemoveDuplicatesByFields(arr, ['requestUrl'])
       result.sort((a, b) => new Date(b.count) - new Date(a.count))
       const fieldMapping = {
-        宛先IPアドレス: 'dest_ip',
+        アドレス: 'requestUrl',
         リクエスト回数: 'count'
       }
-      this.$makeExcel(result, fieldMapping, ip + type + '-total--10.14-11.13', [])
+      this.$makeExcel(result, fieldMapping, type + '-total', [])
     }
   }
 }
