@@ -1,0 +1,58 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <mirrors>
+        <!-- 阿里云Maven中央仓库镜像 -->
+        <mirror>
+            <id>aliyun-central</id>
+            <mirrorOf>central</mirrorOf>
+            <url>https://maven.aliyun.com/repository/central</url>
+        </mirror>
+        <!-- 私有Nexus公共仓库组 -->
+        <mirror>
+            <id>nexus-private</id>
+            <mirrorOf>*</mirrorOf>
+            <url>https://code.trechina.cn/package/repository/maven-public/</url>
+        </mirror>
+
+    </mirrors>
+
+    <profiles>
+        <profile>
+            <id>nexus</id>
+            <repositories>
+                <!-- 私有库地址-->
+                <repository>
+                    <id>nexus-private</id>
+                    <url>https://code.trechina.cn/package/repository/maven-public/</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <!--插件库地址-->
+                <pluginRepository>
+                    <id>nexus-private</id>
+                    <url>https://code.trechina.cn/package/repository/maven-public/</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>nexus</activeProfile>
+    </activeProfiles>
+
+
+</settings>
