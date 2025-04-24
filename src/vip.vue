@@ -9,9 +9,9 @@
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 13, '40-50')">40-50</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 14, '19-2000-2013')">19-2000-2013</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 15, '21-2000-2013')">21-2000-2013</div>
-      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 14, '20-2013-2030')">20-2013-2030</div>
-      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 15, '20-2030-2100')">20-2030-2100</div>
-      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 16, '20-1950-2000')">20-1950-2000</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 16, '20-2013-2030')">20-2013-2030</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 17, '20-2030-2100')">20-2030-2100</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 18, '20-1950-2000')">20-1950-2000</div>
 
       <!-- <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs', 8, '8031-0832')">31-32</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent2('logs', 7, '0830-0831-time')">0830-0831-time</div>
