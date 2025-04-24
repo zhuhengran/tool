@@ -11,6 +11,8 @@
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 15, '21-2000-2013')">21-2000-2013</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 14, '20-2013-2030')">20-2013-2030</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 15, '20-2030-2100')">20-2030-2100</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 16, '20-1950-2000')">20-1950-2000</div>
+
       <!-- <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs', 8, '8031-0832')">31-32</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent2('logs', 7, '0830-0831-time')">0830-0831-time</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent2('logs', 8, '0831-0832-time')">0831-0832-time</div>
@@ -49,6 +51,7 @@ import jsonData14 from './downloaded-logs-0419-2000-2013.json'
 import jsonData15 from './downloaded-logs-0421-2000-2013.json'
 import jsonData16 from './downloaded-logs-0420-2013-2030.json'
 import jsonData17 from './downloaded-logs-0420-2030-2100.json'
+import jsonData18 from './downloaded-logs-0420-1950-2000.json'
 export default {
   data() {
     return {
@@ -69,7 +72,8 @@ export default {
         14: jsonData14,
         15: jsonData15,
         16: jsonData16,
-        17: jsonData17
+        17: jsonData17,
+        18: jsonData18
       }
     }
   },
