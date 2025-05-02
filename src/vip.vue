@@ -12,6 +12,9 @@
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 16, '20-2013-2030')">20-2013-2030</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 17, '20-2030-2100')">20-2030-2100</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 18, '20-1950-2000')">20-1950-2000</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContentTotal('logs' , 14, '分钟别')">分钟别</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 19, '18-2000-2013')">18-2000-2013</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 20, '22-2000-2013')">22-2000-2013</div>
 
       <!-- <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs', 8, '8031-0832')">31-32</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent2('logs', 7, '0830-0831-time')">0830-0831-time</div>
@@ -52,6 +55,8 @@ import jsonData15 from './downloaded-logs-0421-2000-2013.json'
 import jsonData16 from './downloaded-logs-0420-2013-2030.json'
 import jsonData17 from './downloaded-logs-0420-2030-2100.json'
 import jsonData18 from './downloaded-logs-0420-1950-2000.json'
+import jsonData19 from './downloaded-logs-18.json'
+import jsonData20 from './downloaded-logs-22.json'
 export default {
   data() {
     return {
@@ -73,7 +78,9 @@ export default {
         15: jsonData15,
         16: jsonData16,
         17: jsonData17,
-        18: jsonData18
+        18: jsonData18,
+        19: jsonData19,
+        20: jsonData20
       }
     }
   },
@@ -307,7 +314,8 @@ export default {
       const arr = []
       jsonData.forEach(item => {
         arr.push({
-          requestUrl: this.getNestedValue(item, ['httpRequest', 'requestUrl'])
+          date: this.convertUTCToJST(item.timestamp).split('T')[0],
+          time: this.convertUTCToJST(item.timestamp).split('T')[1].split('.')[0].slice(0, 5)
         })
       })
       const countAndRemoveDuplicatesByFields = (arr, keys) => {
@@ -332,10 +340,11 @@ export default {
         return result
       }
 
-      const result = countAndRemoveDuplicatesByFields(arr, ['requestUrl'])
+      const result = countAndRemoveDuplicatesByFields(arr, ['date','time'])
       result.sort((a, b) => new Date(b.count) - new Date(a.count))
       const fieldMapping = {
-        アドレス: 'requestUrl',
+        date: 'date',
+        time: 'time',
         リクエスト回数: 'count'
       }
       this.$makeExcel(result, fieldMapping, type + '-total', [])
