@@ -340,7 +340,7 @@ export default {
         return result
       }
 
-      const result = countAndRemoveDuplicatesByFields(arr, ['date','time'])
+      const result = countAndRemoveDuplicatesByFields(arr, ['date', 'time'])
       result.sort((a, b) => new Date(b.count) - new Date(a.count))
       const fieldMapping = {
         date: 'date',
