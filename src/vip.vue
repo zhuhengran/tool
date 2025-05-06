@@ -17,8 +17,10 @@
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 20, '22-2000-2013')">22-2000-2013</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 21, '0506-0940-1000')">0506-0940-1000</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 22, '0506-1155-1210')">0506-1155-1210</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 23, '0506-0940-0955')">0506-0940-0955</div>
       <div style="cursor:pointer" @click="getContentTotal('21', 21, '0506-0940-1000')">0506-0940-1000-total</div>
       <div style="cursor:pointer" @click="getContentTotal('22', 22, '0506-1155-1210')">0506-1155-1210-total</div>
+      <div style="cursor:pointer" @click="getContentTotal('23', 23, '0506-0940-0955')">0506-0940-0955-total</div>
 
       <!-- <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs', 8, '8031-0832')">31-32</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent2('logs', 7, '0830-0831-time')">0830-0831-time</div>
@@ -63,6 +65,7 @@ import jsonData19 from './downloaded-logs-18.json'
 import jsonData20 from './downloaded-logs-22.json'
 import jsonData21 from './downloaded-logs-20250506-0940-1000.json'
 import jsonData22 from './downloaded-logs-20250506-1155-1210.json'
+import jsonData23 from './downloaded-logs-20250506-0940-0955.json'
 export default {
   data() {
     return {
@@ -88,7 +91,8 @@ export default {
         19: jsonData19,
         20: jsonData20,
         21: jsonData21,
-        22: jsonData22
+        22: jsonData22,
+        23: jsonData23
       }
     }
   },
