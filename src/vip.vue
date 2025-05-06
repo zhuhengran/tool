@@ -18,13 +18,25 @@
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 21, '0506-0940-1000')">0506-0940-1000</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 22, '0506-1155-1210')">0506-1155-1210</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 23, '0506-0940-0955')">0506-0940-0955</div> -->
-      <div style="cursor:pointer" @click="getContentTotal('21', 21, '0506-0940-1000')">0506-0940-1000-total</div>
-      <div style="cursor:pointer" @click="getContentTotal('22', 22, '0506-1155-1210')">0506-1155-1210-total</div>
-      <div style="cursor:pointer" @click="getContentTotal('23', 23, '0506-0940-0955')">0506-0940-0955-total</div>
       <div style="cursor:pointer" @click="getContentTotal('24', 24, '0504-0940-0955')">0504-0940-0955-total</div>
       <div style="cursor:pointer" @click="getContentTotal('25', 25, '0505-0940-0955')">0505-0940-0955-total</div>
-      <div style="cursor:pointer" @click="getContentTotal('26', 26, '0505-0944-0950')">0505-0944-0950-total</div>
-      <div style="cursor:pointer" @click="getContentTotal('27', 27, '0506-0944-0950')">0506-0944-0950-total</div>
+      <div style="cursor:pointer" @click="getContentTotal('23', 23, '0506-0940-0955')">0506-0940-0955-total</div>
+      <div style="cursor:pointer" @click="getContentTotal('31', 31, '0504-1155-1210')">0504-1155-1210-total</div>
+      <div style="cursor:pointer" @click="getContentTotal('32', 32, '0505-1155-1210')">0505-1155-1210-total</div>
+      <div style="cursor:pointer" @click="getContentTotal('22', 22, '0506-1155-1210')">0506-1155-1210-total</div>
+      <div style="cursor:pointer" @click="getContentTotal('30', 30, '0504-1410-1425')">0504-1410-1425-total</div>
+      <div style="cursor:pointer" @click="getContentTotal('28', 28, '0505-1410-1425')">0505-1410-1425-total</div>
+      <div style="cursor:pointer" @click="getContentTotal('29', 29, '0506-1410-1425')">0506-1410-1425-total</div>
+
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 24, '0504-0940-0955')">0504-0940-0955</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 25, '0505-0940-0955')">0505-0940-0955</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 23, '0506-0940-0955')">0506-0940-0955</div>
+      
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 31, '0504-1155-1210')">0504-1155-1210</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 32, '0505-1155-1210')">0505-1155-1210</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 22, '0506-1155-1210')">0506-1155-1210</div>
+
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 30, '0504-1410-1425')">0504-1410-1425</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 28, '0505-1410-1425')">0505-1410-1425</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 29, '0506-1410-1425')">0506-1410-1425</div>
 
@@ -69,15 +81,18 @@
 // import jsonData18 from './downloaded-logs-0420-1950-2000.json'
 // import jsonData19 from './downloaded-logs-18.json'
 // import jsonData20 from './downloaded-logs-22.json'
-import jsonData21 from './downloaded-logs-20250506-0940-1000.json'
+// import jsonData26 from './downloaded-logs-20250505-0944-0950.json'
+// import jsonData27 from './downloaded-logs-20250506-0944-0950.json'
+// import jsonData21 from './downloaded-logs-20250506-0940-1000.json'
 import jsonData22 from './downloaded-logs-20250506-1155-1210.json'
 import jsonData23 from './downloaded-logs-20250506-0940-0955.json'
 import jsonData24 from './downloaded-logs-20250504-0940-0955.json'
 import jsonData25 from './downloaded-logs-20250505-0940-0955.json'
-import jsonData26 from './downloaded-logs-20250505-0944-0950.json'
-import jsonData27 from './downloaded-logs-20250506-0944-0950.json'
 import jsonData28 from './downloaded-logs-20250505-1410-1425.json'
 import jsonData29 from './downloaded-logs-20250506-1410-1425.json'
+import jsonData30 from './downloaded-logs-20250504-1410-1425.json'
+import jsonData31 from './downloaded-logs-20250504-1155-1210.json'
+import jsonData32 from './downloaded-logs-20250505-1155-1210.json'
 export default {
   data() {
     return {
@@ -102,15 +117,18 @@ export default {
         // 18: jsonData18,
         // 19: jsonData19,
         // 20: jsonData20,
-        21: jsonData21,
+        // 21: jsonData21,
         22: jsonData22,
         23: jsonData23,
         24: jsonData24,
         25: jsonData25,
-        26: jsonData26,
-        27: jsonData27,
+        // 26: jsonData26,
+        // 27: jsonData27,
         28: jsonData28,
-        29: jsonData29
+        29: jsonData29,
+        30: jsonData30,
+        31: jsonData31,
+        32: jsonData32
       }
     }
   },
