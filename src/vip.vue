@@ -2,7 +2,7 @@
 <template>
   <div>
     <div style="margin-bottom: 20px">
-      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 10, '2000-2012')">00-12</div>
+      <!-- <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 10, '2000-2012')">00-12</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 11, 'all')">all</div>
       <div style="cursor:pointer" @click="getContentTotal('1', 11, 'リスト')">total</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 12, '50-05')">50-05</div>
@@ -17,10 +17,16 @@
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 20, '22-2000-2013')">22-2000-2013</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 21, '0506-0940-1000')">0506-0940-1000</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 22, '0506-1155-1210')">0506-1155-1210</div>
-      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 23, '0506-0940-0955')">0506-0940-0955</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 23, '0506-0940-0955')">0506-0940-0955</div> -->
       <div style="cursor:pointer" @click="getContentTotal('21', 21, '0506-0940-1000')">0506-0940-1000-total</div>
       <div style="cursor:pointer" @click="getContentTotal('22', 22, '0506-1155-1210')">0506-1155-1210-total</div>
       <div style="cursor:pointer" @click="getContentTotal('23', 23, '0506-0940-0955')">0506-0940-0955-total</div>
+      <div style="cursor:pointer" @click="getContentTotal('24', 24, '0504-0940-0955')">0504-0940-0955-total</div>
+      <div style="cursor:pointer" @click="getContentTotal('25', 25, '0505-0940-0955')">0505-0940-0955-total</div>
+      <div style="cursor:pointer" @click="getContentTotal('26', 26, '0505-0944-0950')">0505-0944-0950-total</div>
+      <div style="cursor:pointer" @click="getContentTotal('27', 27, '0506-0944-0950')">0506-0944-0950-total</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 28, '0505-1410-1425')">0505-1410-1425</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 29, '0506-1410-1425')">0506-1410-1425</div>
 
       <!-- <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs', 8, '8031-0832')">31-32</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent2('logs', 7, '0830-0831-time')">0830-0831-time</div>
@@ -43,56 +49,68 @@
   </div>
 </template>
 <script>
-import jsonData1 from './172.28.4.6-out.json'
-import jsonData2 from './172.28.4.7-out.json'
-import jsonData3 from './172.28.4.9-out.json'
-import jsonData4 from './172.28.4.6-in.json'
-import jsonData5 from './172.28.4.6-in.json'
-import jsonData6 from './172.28.4.6-in.json'
-import jsonData7 from './downloaded-logs-20250221-0830-20250221-0831.json'
-import jsonData8 from './downloaded-logs-20250221-0831-20250221-0832.json'
-import jsonData9 from './downloaded-logs-all.json'
-import jsonData10 from './downloaded-logs-20250422-131748.json'
-import jsonData11 from './downloaded-logs-20250422-182509.json'
-import jsonData12 from './downloaded-logs-20250423-085640.json'
-import jsonData13 from './downloaded-logs-20250423-090744.json'
-import jsonData14 from './downloaded-logs-0419-2000-2013.json'
-import jsonData15 from './downloaded-logs-0421-2000-2013.json'
-import jsonData16 from './downloaded-logs-0420-2013-2030.json'
-import jsonData17 from './downloaded-logs-0420-2030-2100.json'
-import jsonData18 from './downloaded-logs-0420-1950-2000.json'
-import jsonData19 from './downloaded-logs-18.json'
-import jsonData20 from './downloaded-logs-22.json'
+// import jsonData1 from './172.28.4.6-out.json'
+// import jsonData2 from './172.28.4.7-out.json'
+// import jsonData3 from './172.28.4.9-out.json'
+// import jsonData4 from './172.28.4.6-in.json'
+// import jsonData5 from './172.28.4.6-in.json'
+// import jsonData6 from './172.28.4.6-in.json'
+// import jsonData7 from './downloaded-logs-20250221-0830-20250221-0831.json'
+// import jsonData8 from './downloaded-logs-20250221-0831-20250221-0832.json'
+// import jsonData9 from './downloaded-logs-all.json'
+// import jsonData10 from './downloaded-logs-20250422-131748.json'
+// import jsonData11 from './downloaded-logs-20250422-182509.json'
+// import jsonData12 from './downloaded-logs-20250423-085640.json'
+// import jsonData13 from './downloaded-logs-20250423-090744.json'
+// import jsonData14 from './downloaded-logs-0419-2000-2013.json'
+// import jsonData15 from './downloaded-logs-0421-2000-2013.json'
+// import jsonData16 from './downloaded-logs-0420-2013-2030.json'
+// import jsonData17 from './downloaded-logs-0420-2030-2100.json'
+// import jsonData18 from './downloaded-logs-0420-1950-2000.json'
+// import jsonData19 from './downloaded-logs-18.json'
+// import jsonData20 from './downloaded-logs-22.json'
 import jsonData21 from './downloaded-logs-20250506-0940-1000.json'
 import jsonData22 from './downloaded-logs-20250506-1155-1210.json'
 import jsonData23 from './downloaded-logs-20250506-0940-0955.json'
+import jsonData24 from './downloaded-logs-20250504-0940-0955.json'
+import jsonData25 from './downloaded-logs-20250505-0940-0955.json'
+import jsonData26 from './downloaded-logs-20250505-0944-0950.json'
+import jsonData27 from './downloaded-logs-20250506-0944-0950.json'
+import jsonData28 from './downloaded-logs-20250505-1410-1425.json'
+import jsonData29 from './downloaded-logs-20250506-1410-1425.json'
 export default {
   data() {
     return {
       jsonDataMap: {
-        1: jsonData1,
-        2: jsonData2,
-        3: jsonData3,
-        4: jsonData4,
-        5: jsonData5,
-        6: jsonData6,
-        7: jsonData7,
-        8: jsonData8,
-        9: jsonData9,
-        10: jsonData10,
-        11: jsonData11,
-        12: jsonData12,
-        13: jsonData13,
-        14: jsonData14,
-        15: jsonData15,
-        16: jsonData16,
-        17: jsonData17,
-        18: jsonData18,
-        19: jsonData19,
-        20: jsonData20,
+        // 1: jsonData1,
+        // 2: jsonData2,
+        // 3: jsonData3,
+        // 4: jsonData4,
+        // 5: jsonData5,
+        // 6: jsonData6,
+        // 7: jsonData7,
+        // 8: jsonData8,
+        // 9: jsonData9,
+        // 10: jsonData10,
+        // 11: jsonData11,
+        // 12: jsonData12,
+        // 13: jsonData13,
+        // 14: jsonData14,
+        // 15: jsonData15,
+        // 16: jsonData16,
+        // 17: jsonData17,
+        // 18: jsonData18,
+        // 19: jsonData19,
+        // 20: jsonData20,
         21: jsonData21,
         22: jsonData22,
-        23: jsonData23
+        23: jsonData23,
+        24: jsonData24,
+        25: jsonData25,
+        26: jsonData26,
+        27: jsonData27,
+        28: jsonData28,
+        29: jsonData29
       }
     }
   },
