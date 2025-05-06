@@ -15,6 +15,10 @@
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContentTotal('logs' , 14, '分钟别')">分钟别</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 19, '18-2000-2013')">18-2000-2013</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 20, '22-2000-2013')">22-2000-2013</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 21, '0506-0940-1000')">0506-0940-1000</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 22, '0506-1155-1210')">0506-1155-1210</div>
+      <div style="cursor:pointer" @click="getContentTotal('21', 21, '0506-0940-1000')">0506-0940-1000-total</div>
+      <div style="cursor:pointer" @click="getContentTotal('22', 22, '0506-1155-1210')">0506-1155-1210-total</div>
 
       <!-- <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs', 8, '8031-0832')">31-32</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent2('logs', 7, '0830-0831-time')">0830-0831-time</div>
@@ -57,6 +61,8 @@ import jsonData17 from './downloaded-logs-0420-2030-2100.json'
 import jsonData18 from './downloaded-logs-0420-1950-2000.json'
 import jsonData19 from './downloaded-logs-18.json'
 import jsonData20 from './downloaded-logs-22.json'
+import jsonData21 from './downloaded-logs-20250506-0940-1000.json'
+import jsonData22 from './downloaded-logs-20250506-1155-1210.json'
 export default {
   data() {
     return {
@@ -80,7 +86,9 @@ export default {
         17: jsonData17,
         18: jsonData18,
         19: jsonData19,
-        20: jsonData20
+        20: jsonData20,
+        21: jsonData21,
+        22: jsonData22
       }
     }
   },
@@ -314,8 +322,7 @@ export default {
       const arr = []
       jsonData.forEach(item => {
         arr.push({
-          date: this.convertUTCToJST(item.timestamp).split('T')[0],
-          time: this.convertUTCToJST(item.timestamp).split('T')[1].split('.')[0].slice(0, 5)
+          requestUrl: this.getNestedValue(item, ['httpRequest', 'requestUrl'])
         })
       })
       const countAndRemoveDuplicatesByFields = (arr, keys) => {
@@ -340,11 +347,10 @@ export default {
         return result
       }
 
-      const result = countAndRemoveDuplicatesByFields(arr, ['date', 'time'])
+      const result = countAndRemoveDuplicatesByFields(arr, ['requestUrl'])
       result.sort((a, b) => new Date(b.count) - new Date(a.count))
       const fieldMapping = {
-        date: 'date',
-        time: 'time',
+        URL: 'requestUrl',
         リクエスト回数: 'count'
       }
       this.$makeExcel(result, fieldMapping, type + '-total', [])
