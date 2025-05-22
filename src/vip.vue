@@ -31,7 +31,7 @@
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 24, '0504-0940-0955')">0504-0940-0955</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 25, '0505-0940-0955')">0505-0940-0955</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 23, '0506-0940-0955')">0506-0940-0955</div>
-      
+
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 31, '0504-1155-1210')">0504-1155-1210</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 32, '0505-1155-1210')">0505-1155-1210</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 22, '0506-1155-1210')">0506-1155-1210</div>
