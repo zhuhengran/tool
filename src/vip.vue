@@ -203,15 +203,15 @@ export default {
       // const result = countAndRemoveDuplicatesByFields(arr, 'dest_ip', 'date');
       // result.sort((a, b) => new Date(b.date) - new Date(a.date));
       const fieldMapping = {
-        日期: 'date',
-        时间: 'time',
-        服务器IP: 'serverIp',
-        客户端IP: 'remoteIp',
-        请求方法: 'requestMethod',
-        请求地址: 'requestUrl',
-        状态: 'status',
-        延迟时间: 'latency',
-        用户代理: 'userAgent'
+        date: 'date',
+        time: 'time',
+        サーバーIP: 'serverIp',
+        クライアント: 'remoteIp',
+        method: 'requestMethod',
+        "request URL": 'requestUrl',
+        status: 'status',
+        レスポンス: 'latency',
+        ユーザーエージェント: 'userAgent'
       }
       this.$makeExcel(arr, fieldMapping, ip + type, [])
     },
@@ -273,15 +273,16 @@ export default {
           latency: this.getNestedValue(item, ['httpRequest', 'latency']).split('.')[0]
         })
       })
+      
       const fieldMapping = {
-        日期: 'date',
-        时间: 'time',
-        服务器IP: 'serverIp',
-        客户端IP: 'remoteIp',
-        请求方法: 'requestMethod',
-        请求地址: 'requestUrl',
-        状态: 'status',
-        延迟时间: 'latency'
+        date: 'date',
+        time: 'time',
+        サーバーIP: 'serverIp',
+        クライアント: 'remoteIp',
+        method: 'requestMethod',
+        "request URL": 'requestUrl',
+        status: 'status',
+        レスポンス: 'latency'
       }
       this.$makeExcel(arr, fieldMapping, ip + type, [])
     },
