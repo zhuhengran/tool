@@ -1,0 +1,2284 @@
+[
+  {
+    "insertId": "slwz1wet48ld",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "462",
+      "status": 200,
+      "responseSize": "6733",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:60288",
+      "serverIp": "172.28.4.10:80",
+      "latency": "3.038664s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "project_id": "provisional-ppm",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_target_name": "lb-backend-service-hash",
+        "forwarding_rule_name": "lb-front-service",
+        "url_map_name": "lb-web01-web02",
+        "target_proxy_name": "target-http-proxy",
+        "backend_name": "crm-lb-neg",
+        "backend_scope": "asia-northeast1-b",
+        "backend_scope_type": "ZONE",
+        "region": "asia-northeast1",
+        "network_name": "qin",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "backend_target_type": "BACKEND_SERVICE"
+      }
+    },
+    "timestamp": "2025-05-19T01:15:23.234283Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-19T01:15:31.093119675Z"
+  },
+  {
+    "insertId": "kah6j5eqeh5m",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "462",
+      "status": 302,
+      "responseSize": "504",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.2.1.71:50166",
+      "serverIp": "172.28.4.10:80",
+      "latency": "2.837652s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "region": "asia-northeast1",
+        "target_proxy_name": "target-http-proxy",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_scope_type": "ZONE",
+        "url_map_name": "lb-web01-web02",
+        "backend_name": "crm-lb-neg",
+        "backend_scope": "asia-northeast1-b",
+        "project_id": "provisional-ppm",
+        "network_name": "qin",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_target_name": "lb-backend-service-hash",
+        "backend_target_type": "BACKEND_SERVICE"
+      }
+    },
+    "timestamp": "2025-05-19T04:01:36.760510Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-19T04:01:41.979011116Z"
+  },
+  {
+    "insertId": "95t190ek5k3t",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "462",
+      "status": 302,
+      "responseSize": "504",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.38.106:50433",
+      "serverIp": "172.28.4.10:80",
+      "latency": "3.024889s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_scope_type": "ZONE",
+        "url_map_name": "lb-web01-web02",
+        "backend_name": "crm-lb-neg",
+        "region": "asia-northeast1",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "forwarding_rule_name": "lb-front-service",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_scope": "asia-northeast1-b",
+        "project_id": "provisional-ppm",
+        "target_proxy_name": "target-http-proxy",
+        "network_name": "qin",
+        "backend_target_name": "lb-backend-service-hash"
+      }
+    },
+    "timestamp": "2025-05-20T00:47:13.731665Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-20T00:47:26.088102787Z"
+  },
+  {
+    "insertId": "ci9nrfesa7za",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "493",
+      "status": 200,
+      "responseSize": "6733",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:64169",
+      "referer": "http://172.21.17.22/",
+      "serverIp": "172.28.4.10:80",
+      "latency": "2.735917s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "target_proxy_name": "target-http-proxy",
+        "url_map_name": "lb-web01-web02",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_scope": "asia-northeast1-b",
+        "backend_target_name": "lb-backend-service-hash",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_scope_type": "ZONE",
+        "backend_name": "crm-lb-neg",
+        "network_name": "qin",
+        "backend_target_type": "BACKEND_SERVICE",
+        "project_id": "provisional-ppm",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "region": "asia-northeast1"
+      }
+    },
+    "timestamp": "2025-05-20T07:16:53.285416Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-20T07:17:02.717119153Z"
+  },
+  {
+    "insertId": "9qwj8te6722g",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "462",
+      "status": 200,
+      "responseSize": "6733",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.50.32:62595",
+      "serverIp": "172.28.4.10:80",
+      "latency": "2.618861s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "project_id": "provisional-ppm",
+        "target_proxy_name": "target-http-proxy",
+        "backend_scope_type": "ZONE",
+        "backend_target_name": "lb-backend-service-hash",
+        "network_name": "qin",
+        "backend_scope": "asia-northeast1-b",
+        "url_map_name": "lb-web01-web02",
+        "region": "asia-northeast1",
+        "forwarding_rule_name": "lb-front-service",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_name": "crm-lb-neg"
+      }
+    },
+    "timestamp": "2025-05-20T07:59:30.771179Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-20T07:59:42.595704579Z"
+  },
+  {
+    "insertId": "5v0v9hepw3nz",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1158",
+      "status": 302,
+      "responseSize": "5713",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.50.32:62602",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.344988s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "project_id": "provisional-ppm",
+        "url_map_name": "lb-web01-web02",
+        "network_name": "qin",
+        "backend_scope_type": "ZONE",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_target_name": "lb-backend-service-hash",
+        "target_proxy_name": "target-http-proxy",
+        "backend_target_type": "BACKEND_SERVICE",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "region": "asia-northeast1",
+        "backend_scope": "asia-northeast1-b",
+        "backend_name": "crm-lb-neg"
+      }
+    },
+    "timestamp": "2025-05-20T07:59:43.453484Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-20T07:59:47.872062616Z"
+  },
+  {
+    "insertId": "95txf9emqx1c",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "514",
+      "status": 200,
+      "responseSize": "6659",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.50.32:62602",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.054601s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "network_name": "qin",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_name": "crm-lb-neg",
+        "target_proxy_name": "target-http-proxy",
+        "url_map_name": "lb-web01-web02",
+        "region": "asia-northeast1",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "backend_scope": "asia-northeast1-b",
+        "project_id": "provisional-ppm",
+        "backend_scope_type": "ZONE",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_target_name": "lb-backend-service-hash"
+      }
+    },
+    "timestamp": "2025-05-20T08:13:30.195342Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-20T08:13:37.968892448Z"
+  },
+  {
+    "insertId": "95txf9emqx1e",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1158",
+      "status": 302,
+      "responseSize": "5713",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.50.32:62602",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.209533s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "region": "asia-northeast1",
+        "backend_scope_type": "ZONE",
+        "backend_scope": "asia-northeast1-b",
+        "backend_target_name": "lb-backend-service-hash",
+        "url_map_name": "lb-web01-web02",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "target_proxy_name": "target-http-proxy",
+        "backend_target_type": "BACKEND_SERVICE",
+        "network_name": "qin",
+        "project_id": "provisional-ppm",
+        "backend_name": "crm-lb-neg",
+        "forwarding_rule_name": "lb-front-service"
+      }
+    },
+    "timestamp": "2025-05-20T08:13:32.950080Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-20T08:13:37.968892448Z"
+  },
+  {
+    "insertId": "9qwbtke3kqk8",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "462",
+      "status": 200,
+      "responseSize": "6733",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:64446",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.041470s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_name": "crm-lb-neg",
+        "backend_scope": "asia-northeast1-b",
+        "target_proxy_name": "target-http-proxy",
+        "backend_target_name": "lb-backend-service-hash",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "network_name": "qin",
+        "region": "asia-northeast1",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_type": "BACKEND_SERVICE",
+        "project_id": "provisional-ppm",
+        "backend_scope_type": "ZONE",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_type": "NETWORK_ENDPOINT_GROUP"
+      }
+    },
+    "timestamp": "2025-05-20T08:20:40.630155Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-20T08:20:43.027969677Z"
+  },
+  {
+    "insertId": "9pyrzle5aejz",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1158",
+      "status": 302,
+      "responseSize": "5713",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:64446",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.202507s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_target_name": "lb-backend-service-hash",
+        "project_id": "provisional-ppm",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "url_map_name": "lb-web01-web02",
+        "backend_scope": "asia-northeast1-b",
+        "backend_target_type": "BACKEND_SERVICE",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_scope_type": "ZONE",
+        "target_proxy_name": "target-http-proxy",
+        "network_name": "qin",
+        "backend_name": "crm-lb-neg",
+        "region": "asia-northeast1",
+        "backend_type": "NETWORK_ENDPOINT_GROUP"
+      }
+    },
+    "timestamp": "2025-05-20T08:21:57.044059Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-20T08:22:03.057175430Z"
+  },
+  {
+    "insertId": "1n4frs8elmzdz",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "567",
+      "status": 200,
+      "responseSize": "6659",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.50.32:63217",
+      "referer": "http://172.28.4.200/NewCRMSystem/Main.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.037736s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "network_name": "qin",
+        "backend_scope": "asia-northeast1-b",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "region": "asia-northeast1",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_scope_type": "ZONE",
+        "backend_target_name": "lb-backend-service-hash",
+        "forwarding_rule_name": "lb-front-service",
+        "target_proxy_name": "target-http-proxy",
+        "project_id": "provisional-ppm",
+        "backend_name": "crm-lb-neg"
+      }
+    },
+    "timestamp": "2025-05-20T08:34:02.509965Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-20T08:34:06.957164697Z"
+  },
+  {
+    "insertId": "9pyqxse66hzs",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "514",
+      "status": 200,
+      "responseSize": "6659",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.50.32:64838",
+      "serverIp": "172.28.4.10:80",
+      "latency": "1.587130s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_scope": "asia-northeast1-b",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "project_id": "provisional-ppm",
+        "region": "asia-northeast1",
+        "backend_scope_type": "ZONE",
+        "network_name": "qin",
+        "backend_target_type": "BACKEND_SERVICE",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_name": "lb-backend-service-hash",
+        "target_proxy_name": "target-http-proxy",
+        "backend_name": "crm-lb-neg",
+        "forwarding_rule_name": "lb-front-service"
+      }
+    },
+    "timestamp": "2025-05-20T09:12:10.017812Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-20T09:12:13.133616358Z"
+  },
+  {
+    "insertId": "kah6j5ey6jnp",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1158",
+      "status": 302,
+      "responseSize": "5713",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.50.32:64838",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.348872s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "network_name": "qin",
+        "backend_scope": "asia-northeast1-b",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_name": "lb-backend-service-hash",
+        "project_id": "provisional-ppm",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_scope_type": "ZONE",
+        "backend_name": "crm-lb-neg",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "target_proxy_name": "target-http-proxy",
+        "region": "asia-northeast1",
+        "backend_target_type": "BACKEND_SERVICE"
+      }
+    },
+    "timestamp": "2025-05-20T09:12:14.713567Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-20T09:12:23.321371032Z"
+  },
+  {
+    "insertId": "1oirdxzel5ru3",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "567",
+      "status": 200,
+      "responseSize": "6659",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:64778",
+      "referer": "http://172.28.4.200/NewCRMSystem/Main.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "1.684572s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "project_id": "provisional-ppm",
+        "forwarding_rule_name": "lb-front-service",
+        "target_proxy_name": "target-http-proxy",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_type": "BACKEND_SERVICE",
+        "region": "asia-northeast1",
+        "backend_scope": "asia-northeast1-b",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "network_name": "qin",
+        "backend_target_name": "lb-backend-service-hash",
+        "backend_scope_type": "ZONE",
+        "backend_name": "crm-lb-neg",
+        "matched_url_path_rule": "/NewCRMSystem/"
+      }
+    },
+    "timestamp": "2025-05-20T10:27:12.996666Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-20T10:27:18.066492029Z"
+  },
+  {
+    "insertId": "9pyrzleamjtz",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "514",
+      "status": 200,
+      "responseSize": "6659",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:51428",
+      "serverIp": "172.28.4.10:80",
+      "latency": "2.862885s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "region": "asia-northeast1",
+        "url_map_name": "lb-web01-web02",
+        "backend_scope_type": "ZONE",
+        "backend_name": "crm-lb-neg",
+        "backend_target_type": "BACKEND_SERVICE",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_target_name": "lb-backend-service-hash",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_scope": "asia-northeast1-b",
+        "project_id": "provisional-ppm",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "target_proxy_name": "target-http-proxy",
+        "network_name": "qin"
+      }
+    },
+    "timestamp": "2025-05-21T04:00:49.285594Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-21T04:01:00.465993132Z"
+  },
+  {
+    "insertId": "ci9nrff111qeo",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1158",
+      "status": 302,
+      "responseSize": "5714",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:51428",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.390555s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "project_id": "provisional-ppm",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_target_name": "lb-backend-service-hash",
+        "forwarding_rule_name": "lb-front-service",
+        "url_map_name": "lb-web01-web02",
+        "target_proxy_name": "target-http-proxy",
+        "backend_name": "crm-lb-neg",
+        "backend_scope": "asia-northeast1-b",
+        "region": "asia-northeast1",
+        "backend_scope_type": "ZONE",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "network_name": "qin",
+        "backend_target_type": "BACKEND_SERVICE"
+      }
+    },
+    "timestamp": "2025-05-21T04:01:15.905852Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-21T04:01:20.426163582Z"
+  },
+  {
+    "insertId": "f17h8eescort",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "462",
+      "status": 200,
+      "responseSize": "6733",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "remoteIp": "192.168.111.207:54666",
+      "serverIp": "172.28.4.11:80",
+      "latency": "1.528313s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "target_proxy_name": "target-http-proxy",
+        "region": "asia-northeast1",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_scope_type": "ZONE",
+        "url_map_name": "lb-web01-web02",
+        "backend_name": "crm-lb-neg",
+        "backend_scope": "asia-northeast1-b",
+        "project_id": "provisional-ppm",
+        "network_name": "qin",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_target_name": "lb-backend-service-hash",
+        "backend_target_type": "BACKEND_SERVICE"
+      }
+    },
+    "timestamp": "2025-05-21T04:20:39.528586Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-21T04:20:44.448350137Z"
+  },
+  {
+    "insertId": "1bhlhg0ehzff1",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1158",
+      "status": 302,
+      "responseSize": "5714",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "remoteIp": "192.168.111.207:54688",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.11:80",
+      "latency": "0.382599s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_scope_type": "ZONE",
+        "url_map_name": "lb-web01-web02",
+        "backend_name": "crm-lb-neg",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "region": "asia-northeast1",
+        "forwarding_rule_name": "lb-front-service",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_scope": "asia-northeast1-b",
+        "project_id": "provisional-ppm",
+        "target_proxy_name": "target-http-proxy",
+        "network_name": "qin",
+        "backend_target_name": "lb-backend-service-hash"
+      }
+    },
+    "timestamp": "2025-05-21T04:20:50.603822Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-21T04:20:52.752210673Z"
+  },
+  {
+    "insertId": "dc7w6dedmzv9",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "567",
+      "status": 200,
+      "responseSize": "6659",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "remoteIp": "192.168.111.207:54692",
+      "referer": "http://172.28.4.200/NewCRMSystem/Main.aspx",
+      "serverIp": "172.28.4.11:80",
+      "latency": "0.033905s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "target_proxy_name": "target-http-proxy",
+        "url_map_name": "lb-web01-web02",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_scope": "asia-northeast1-b",
+        "backend_target_name": "lb-backend-service-hash",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_scope_type": "ZONE",
+        "backend_name": "crm-lb-neg",
+        "network_name": "qin",
+        "backend_target_type": "BACKEND_SERVICE",
+        "project_id": "provisional-ppm",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "region": "asia-northeast1"
+      }
+    },
+    "timestamp": "2025-05-21T04:21:35.200587Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-21T04:21:41.175583792Z"
+  },
+  {
+    "insertId": "1s58xouejp57g",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "441",
+      "status": 200,
+      "responseSize": "6733",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "remoteIp": "10.107.40.202:54075",
+      "serverIp": "172.28.4.11:80",
+      "latency": "2.618699s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "project_id": "provisional-ppm",
+        "target_proxy_name": "target-http-proxy",
+        "backend_scope_type": "ZONE",
+        "backend_target_name": "lb-backend-service-hash",
+        "network_name": "qin",
+        "backend_scope": "asia-northeast1-b",
+        "url_map_name": "lb-web01-web02",
+        "region": "asia-northeast1",
+        "forwarding_rule_name": "lb-front-service",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_name": "crm-lb-neg"
+      }
+    },
+    "timestamp": "2025-05-21T05:12:44.235034Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-21T05:12:52.723624519Z"
+  },
+  {
+    "insertId": "63upn6dmuqs",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "462",
+      "status": 302,
+      "responseSize": "504",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "remoteIp": "192.168.31.204:59476",
+      "serverIp": "172.28.4.11:80",
+      "latency": "1.993030s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "project_id": "provisional-ppm",
+        "url_map_name": "lb-web01-web02",
+        "network_name": "qin",
+        "backend_scope_type": "ZONE",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_target_name": "lb-backend-service-hash",
+        "target_proxy_name": "target-http-proxy",
+        "backend_target_type": "BACKEND_SERVICE",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "region": "asia-northeast1",
+        "backend_scope": "asia-northeast1-b",
+        "backend_name": "crm-lb-neg"
+      }
+    },
+    "timestamp": "2025-05-21T05:57:31.302571Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-21T05:57:43.740748301Z"
+  },
+  {
+    "insertId": "9qwj8teg0szf",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "514",
+      "status": 200,
+      "responseSize": "6659",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:51821",
+      "serverIp": "172.28.4.10:80",
+      "latency": "2.405402s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "network_name": "qin",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_name": "crm-lb-neg",
+        "target_proxy_name": "target-http-proxy",
+        "url_map_name": "lb-web01-web02",
+        "region": "asia-northeast1",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "backend_scope": "asia-northeast1-b",
+        "project_id": "provisional-ppm",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_scope_type": "ZONE",
+        "backend_target_name": "lb-backend-service-hash"
+      }
+    },
+    "timestamp": "2025-05-21T06:36:29.275871Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-21T06:36:41.352341781Z"
+  },
+  {
+    "insertId": "1qzp2nof11ojvz",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1158",
+      "status": 302,
+      "responseSize": "5713",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:51821",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.344287s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "region": "asia-northeast1",
+        "backend_scope_type": "ZONE",
+        "backend_scope": "asia-northeast1-b",
+        "backend_target_name": "lb-backend-service-hash",
+        "url_map_name": "lb-web01-web02",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "target_proxy_name": "target-http-proxy",
+        "backend_target_type": "BACKEND_SERVICE",
+        "network_name": "qin",
+        "project_id": "provisional-ppm",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_name": "crm-lb-neg"
+      }
+    },
+    "timestamp": "2025-05-21T06:36:43.306322Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-21T06:36:51.483531583Z"
+  },
+  {
+    "insertId": "rr3iywe8wfwn",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "441",
+      "status": 200,
+      "responseSize": "6733",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "remoteIp": "10.107.40.202:54841",
+      "serverIp": "172.28.4.11:80",
+      "latency": "2.589059s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_name": "crm-lb-neg",
+        "backend_scope": "asia-northeast1-b",
+        "target_proxy_name": "target-http-proxy",
+        "backend_target_name": "lb-backend-service-hash",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "network_name": "qin",
+        "region": "asia-northeast1",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_type": "BACKEND_SERVICE",
+        "project_id": "provisional-ppm",
+        "backend_scope_type": "ZONE",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "forwarding_rule_name": "lb-front-service"
+      }
+    },
+    "timestamp": "2025-05-21T07:39:55.632362Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-21T07:40:03.569401314Z"
+  },
+  {
+    "insertId": "1raftw1es44xj",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1137",
+      "status": 200,
+      "responseSize": "5751",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "remoteIp": "10.107.40.202:54859",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.11:80",
+      "latency": "0.137771s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_target_name": "lb-backend-service-hash",
+        "project_id": "provisional-ppm",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_scope": "asia-northeast1-b",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_scope_type": "ZONE",
+        "target_proxy_name": "target-http-proxy",
+        "network_name": "qin",
+        "backend_name": "crm-lb-neg",
+        "region": "asia-northeast1",
+        "backend_type": "NETWORK_ENDPOINT_GROUP"
+      }
+    },
+    "timestamp": "2025-05-21T07:40:11.767128Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-21T07:40:16.062637808Z"
+  },
+  {
+    "insertId": "8xz37geatkb8",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1092",
+      "status": 200,
+      "responseSize": "5751",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "remoteIp": "10.107.40.202:54859",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.11:80",
+      "latency": "0.250768s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "network_name": "qin",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "backend_scope": "asia-northeast1-b",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "region": "asia-northeast1",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_scope_type": "ZONE",
+        "backend_target_name": "lb-backend-service-hash",
+        "forwarding_rule_name": "lb-front-service",
+        "target_proxy_name": "target-http-proxy",
+        "project_id": "provisional-ppm",
+        "backend_name": "crm-lb-neg"
+      }
+    },
+    "timestamp": "2025-05-21T07:40:28.455505Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-21T07:40:35.516351065Z"
+  },
+  {
+    "insertId": "1anj6ikemgvie",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1092",
+      "status": 302,
+      "responseSize": "5711",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "remoteIp": "10.107.40.202:54859",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.11:80",
+      "latency": "0.284943s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "backend_scope": "asia-northeast1-b",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "project_id": "provisional-ppm",
+        "region": "asia-northeast1",
+        "backend_scope_type": "ZONE",
+        "network_name": "qin",
+        "backend_target_type": "BACKEND_SERVICE",
+        "url_map_name": "lb-web01-web02",
+        "target_proxy_name": "target-http-proxy",
+        "backend_target_name": "lb-backend-service-hash",
+        "backend_name": "crm-lb-neg",
+        "forwarding_rule_name": "lb-front-service"
+      }
+    },
+    "timestamp": "2025-05-21T07:40:45.147356Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-21T07:40:55.801494806Z"
+  },
+  {
+    "insertId": "1n4frs8eqfhfn",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "441",
+      "status": 200,
+      "responseSize": "6733",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "remoteIp": "10.106.9.201:54976",
+      "serverIp": "172.28.4.10:80",
+      "latency": "2.473345s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "network_name": "qin",
+        "backend_scope": "asia-northeast1-b",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_name": "lb-backend-service-hash",
+        "project_id": "provisional-ppm",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_scope_type": "ZONE",
+        "backend_name": "crm-lb-neg",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "target_proxy_name": "target-http-proxy",
+        "region": "asia-northeast1",
+        "backend_target_type": "BACKEND_SERVICE"
+      }
+    },
+    "timestamp": "2025-05-21T11:03:50.333061Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-21T11:03:54.806414529Z"
+  },
+  {
+    "insertId": "n26ocxe3d0ns",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1137",
+      "status": 302,
+      "responseSize": "5714",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "remoteIp": "10.106.9.201:54977",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.387262s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "project_id": "provisional-ppm",
+        "forwarding_rule_name": "lb-front-service",
+        "target_proxy_name": "target-http-proxy",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_type": "BACKEND_SERVICE",
+        "region": "asia-northeast1",
+        "backend_scope": "asia-northeast1-b",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "network_name": "qin",
+        "backend_target_name": "lb-backend-service-hash",
+        "backend_scope_type": "ZONE",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_name": "crm-lb-neg"
+      }
+    },
+    "timestamp": "2025-05-21T11:04:06.065769Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-21T11:04:13.394006664Z"
+  },
+  {
+    "insertId": "95t190ex09r0",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "441",
+      "status": 200,
+      "responseSize": "6733",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "remoteIp": "192.168.31.201:62588",
+      "serverIp": "172.28.4.10:80",
+      "latency": "2.603278s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_target_name": "lb-backend-service-hash",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "network_name": "qin",
+        "backend_name": "crm-lb-neg",
+        "backend_target_type": "BACKEND_SERVICE",
+        "project_id": "provisional-ppm",
+        "region": "asia-northeast1",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "forwarding_rule_name": "lb-front-service",
+        "target_proxy_name": "target-http-proxy",
+        "backend_scope_type": "ZONE",
+        "url_map_name": "lb-web01-web02",
+        "backend_scope": "asia-northeast1-b"
+      }
+    },
+    "timestamp": "2025-05-22T01:01:33.134888Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T01:01:41.990594562Z"
+  },
+  {
+    "insertId": "9pyrzlehihdz",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1137",
+      "status": 302,
+      "responseSize": "5714",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "remoteIp": "192.168.31.201:62610",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.458278s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_scope_type": "ZONE",
+        "project_id": "provisional-ppm",
+        "network_name": "qin",
+        "backend_name": "crm-lb-neg",
+        "backend_scope": "asia-northeast1-b",
+        "url_map_name": "lb-web01-web02",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "target_proxy_name": "target-http-proxy",
+        "region": "asia-northeast1",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_target_name": "lb-backend-service-hash",
+        "forwarding_rule_name": "lb-front-service"
+      }
+    },
+    "timestamp": "2025-05-22T01:01:43.895929Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T01:01:48.805731700Z"
+  },
+  {
+    "insertId": "1amx5nvex4iwx",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "546",
+      "status": 200,
+      "responseSize": "6659",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "remoteIp": "192.168.31.201:62612",
+      "referer": "http://172.28.4.200/NewCRMSystem/Main.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.336360s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "network_name": "qin",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_target_name": "lb-backend-service-hash",
+        "project_id": "provisional-ppm",
+        "forwarding_rule_name": "lb-front-service",
+        "target_proxy_name": "target-http-proxy",
+        "url_map_name": "lb-web01-web02",
+        "backend_name": "crm-lb-neg",
+        "backend_scope_type": "ZONE",
+        "region": "asia-northeast1",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_scope": "asia-northeast1-b",
+        "backend_type": "NETWORK_ENDPOINT_GROUP"
+      }
+    },
+    "timestamp": "2025-05-22T01:02:00.868184Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T01:02:02.096544549Z"
+  },
+  {
+    "insertId": "tgiy1oeojyr6",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "462",
+      "status": 302,
+      "responseSize": "504",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.38.111:55063",
+      "serverIp": "172.28.4.11:80",
+      "latency": "1.718265s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "forwarding_rule_name": "lb-front-service",
+        "backend_target_type": "BACKEND_SERVICE",
+        "target_proxy_name": "target-http-proxy",
+        "backend_name": "crm-lb-neg",
+        "backend_scope_type": "ZONE",
+        "url_map_name": "lb-web01-web02",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "backend_scope": "asia-northeast1-b",
+        "project_id": "provisional-ppm",
+        "network_name": "qin",
+        "backend_target_name": "lb-backend-service-hash",
+        "region": "asia-northeast1"
+      }
+    },
+    "timestamp": "2025-05-22T01:09:28.472933Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T01:09:39.459581831Z"
+  },
+  {
+    "insertId": "1oirdxzetexo6",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "514",
+      "status": 302,
+      "responseSize": "430",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.38.111:55063",
+      "serverIp": "172.28.4.11:80",
+      "latency": "0.108268s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "project_id": "provisional-ppm",
+        "backend_scope": "asia-northeast1-b",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_name": "lb-backend-service-hash",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_scope_type": "ZONE",
+        "backend_name": "crm-lb-neg",
+        "region": "asia-northeast1",
+        "network_name": "qin",
+        "backend_target_type": "BACKEND_SERVICE",
+        "target_proxy_name": "target-http-proxy"
+      }
+    },
+    "timestamp": "2025-05-22T01:09:46.379096Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T01:09:49.119609276Z"
+  },
+  {
+    "insertId": "135b495d2076",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "514",
+      "status": 302,
+      "responseSize": "430",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.38.111:55063",
+      "serverIp": "172.28.4.11:80",
+      "latency": "0.126535s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "region": "asia-northeast1",
+        "network_name": "qin",
+        "url_map_name": "lb-web01-web02",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_scope": "asia-northeast1-b",
+        "project_id": "provisional-ppm",
+        "backend_target_name": "lb-backend-service-hash",
+        "target_proxy_name": "target-http-proxy",
+        "backend_name": "crm-lb-neg",
+        "backend_scope_type": "ZONE"
+      }
+    },
+    "timestamp": "2025-05-22T01:11:03.395892Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T01:11:08.869908176Z"
+  },
+  {
+    "insertId": "1ojt82bextvai",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "514",
+      "status": 302,
+      "responseSize": "430",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.38.111:55063",
+      "serverIp": "172.28.4.11:80",
+      "latency": "0.102880s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "forwarding_rule_name": "lb-front-service",
+        "project_id": "provisional-ppm",
+        "backend_target_name": "lb-backend-service-hash",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "url_map_name": "lb-web01-web02",
+        "region": "asia-northeast1",
+        "network_name": "qin",
+        "backend_name": "crm-lb-neg",
+        "backend_scope": "asia-northeast1-b",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "backend_scope_type": "ZONE",
+        "target_proxy_name": "target-http-proxy",
+        "backend_target_type": "BACKEND_SERVICE"
+      }
+    },
+    "timestamp": "2025-05-22T01:11:37.329379Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T01:11:38.823559267Z"
+  },
+  {
+    "insertId": "4rdn32d43yk",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "514",
+      "status": 302,
+      "responseSize": "430",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.38.111:55063",
+      "serverIp": "172.28.4.11:80",
+      "latency": "0.122747s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "region": "asia-northeast1",
+        "backend_target_type": "BACKEND_SERVICE",
+        "network_name": "qin",
+        "backend_scope_type": "ZONE",
+        "backend_target_name": "lb-backend-service-hash",
+        "target_proxy_name": "target-http-proxy",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "project_id": "provisional-ppm",
+        "url_map_name": "lb-web01-web02",
+        "backend_scope": "asia-northeast1-b",
+        "backend_name": "crm-lb-neg",
+        "forwarding_rule_name": "lb-front-service"
+      }
+    },
+    "timestamp": "2025-05-22T01:12:57.311293Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T01:12:59.594535970Z"
+  },
+  {
+    "insertId": "zug3w7d3unk",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "514",
+      "status": 302,
+      "responseSize": "430",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.38.111:55063",
+      "serverIp": "172.28.4.11:80",
+      "latency": "0.102246s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_target_name": "lb-backend-service-hash",
+        "url_map_name": "lb-web01-web02",
+        "project_id": "provisional-ppm",
+        "backend_name": "crm-lb-neg",
+        "backend_scope_type": "ZONE",
+        "region": "asia-northeast1",
+        "backend_target_type": "BACKEND_SERVICE",
+        "target_proxy_name": "target-http-proxy",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "network_name": "qin",
+        "backend_scope": "asia-northeast1-b"
+      }
+    },
+    "timestamp": "2025-05-22T01:16:32.385391Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T01:16:39.248699154Z"
+  },
+  {
+    "insertId": "1ojt82bexvm9n",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "514",
+      "status": 200,
+      "responseSize": "6659",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.50.32:53989",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.039455s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_scope": "asia-northeast1-b",
+        "url_map_name": "lb-web01-web02",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "region": "asia-northeast1",
+        "target_proxy_name": "target-http-proxy",
+        "network_name": "qin",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_name": "crm-lb-neg",
+        "project_id": "provisional-ppm",
+        "backend_scope_type": "ZONE",
+        "backend_target_name": "lb-backend-service-hash"
+      }
+    },
+    "timestamp": "2025-05-22T01:21:33.765357Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T01:21:38.951220191Z"
+  },
+  {
+    "insertId": "1ojt82bexvm9q",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1158",
+      "status": 302,
+      "responseSize": "5713",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.50.32:53989",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.208620s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_target_name": "lb-backend-service-hash",
+        "region": "asia-northeast1",
+        "url_map_name": "lb-web01-web02",
+        "project_id": "provisional-ppm",
+        "network_name": "qin",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "target_proxy_name": "target-http-proxy",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "backend_scope": "asia-northeast1-b",
+        "backend_scope_type": "ZONE",
+        "backend_name": "crm-lb-neg"
+      }
+    },
+    "timestamp": "2025-05-22T01:21:36.687388Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T01:21:38.951220191Z"
+  },
+  {
+    "insertId": "9pyqxsel4e96",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "462",
+      "status": 302,
+      "responseSize": "504",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.2.3.26:60035",
+      "serverIp": "172.28.4.11:80",
+      "latency": "3.157493s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "region": "asia-northeast1",
+        "url_map_name": "lb-web01-web02",
+        "backend_scope_type": "ZONE",
+        "backend_name": "crm-lb-neg",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_target_name": "lb-backend-service-hash",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_scope": "asia-northeast1-b",
+        "project_id": "provisional-ppm",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "target_proxy_name": "target-http-proxy",
+        "network_name": "qin"
+      }
+    },
+    "timestamp": "2025-05-22T03:11:58.124026Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T03:12:09.805226461Z"
+  },
+  {
+    "insertId": "1anj6ikeqzge8",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "462",
+      "status": 200,
+      "responseSize": "6733",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:55896",
+      "serverIp": "172.28.4.10:80",
+      "latency": "1.130113s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "project_id": "provisional-ppm",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_target_name": "lb-backend-service-hash",
+        "forwarding_rule_name": "lb-front-service",
+        "url_map_name": "lb-web01-web02",
+        "target_proxy_name": "target-http-proxy",
+        "backend_name": "crm-lb-neg",
+        "backend_scope": "asia-northeast1-b",
+        "region": "asia-northeast1",
+        "backend_scope_type": "ZONE",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "network_name": "qin",
+        "backend_target_type": "BACKEND_SERVICE"
+      }
+    },
+    "timestamp": "2025-05-22T03:14:05.885549Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T03:14:13.718376164Z"
+  },
+  {
+    "insertId": "1rabx00f122vi0",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1158",
+      "status": 302,
+      "responseSize": "5713",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:55896",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.349113s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "target_proxy_name": "target-http-proxy",
+        "region": "asia-northeast1",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_scope_type": "ZONE",
+        "url_map_name": "lb-web01-web02",
+        "backend_name": "crm-lb-neg",
+        "backend_scope": "asia-northeast1-b",
+        "project_id": "provisional-ppm",
+        "forwarding_rule_name": "lb-front-service",
+        "network_name": "qin",
+        "backend_target_name": "lb-backend-service-hash",
+        "backend_target_type": "BACKEND_SERVICE"
+      }
+    },
+    "timestamp": "2025-05-22T03:14:21.966732Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T03:14:23.415259995Z"
+  },
+  {
+    "insertId": "6ol49odhs33",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "567",
+      "status": 200,
+      "responseSize": "6659",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:55899",
+      "referer": "http://172.28.4.200/NewCRMSystem/Main.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.031101s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_scope_type": "ZONE",
+        "url_map_name": "lb-web01-web02",
+        "backend_name": "crm-lb-neg",
+        "region": "asia-northeast1",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "forwarding_rule_name": "lb-front-service",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_scope": "asia-northeast1-b",
+        "project_id": "provisional-ppm",
+        "target_proxy_name": "target-http-proxy",
+        "network_name": "qin",
+        "backend_target_name": "lb-backend-service-hash"
+      }
+    },
+    "timestamp": "2025-05-22T03:19:24.342804Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T03:19:29.765587362Z"
+  },
+  {
+    "insertId": "mt5pz4eu8ygj",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "462",
+      "status": 302,
+      "responseSize": "504",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.251.20.162:49757",
+      "serverIp": "172.28.4.10:80",
+      "latency": "2.675935s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "target_proxy_name": "target-http-proxy",
+        "url_map_name": "lb-web01-web02",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_target_name": "lb-backend-service-hash",
+        "backend_scope": "asia-northeast1-b",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_scope_type": "ZONE",
+        "backend_name": "crm-lb-neg",
+        "network_name": "qin",
+        "backend_target_type": "BACKEND_SERVICE",
+        "project_id": "provisional-ppm",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "region": "asia-northeast1"
+      }
+    },
+    "timestamp": "2025-05-22T04:10:32.251152Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T04:10:40.294454804Z"
+  },
+  {
+    "insertId": "1rbg46tf10tmld",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "514",
+      "status": 200,
+      "responseSize": "6659",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:56295",
+      "serverIp": "172.28.4.10:80",
+      "latency": "2.549029s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "project_id": "provisional-ppm",
+        "target_proxy_name": "target-http-proxy",
+        "backend_scope_type": "ZONE",
+        "backend_target_name": "lb-backend-service-hash",
+        "network_name": "qin",
+        "backend_scope": "asia-northeast1-b",
+        "url_map_name": "lb-web01-web02",
+        "region": "asia-northeast1",
+        "forwarding_rule_name": "lb-front-service",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_name": "crm-lb-neg"
+      }
+    },
+    "timestamp": "2025-05-22T05:46:29.372931Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T05:46:34.145616286Z"
+  },
+  {
+    "insertId": "1aocz6eeupg7r",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1157",
+      "status": 200,
+      "responseSize": "5750",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:56295",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.134407s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "project_id": "provisional-ppm",
+        "url_map_name": "lb-web01-web02",
+        "network_name": "qin",
+        "backend_scope_type": "ZONE",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_target_name": "lb-backend-service-hash",
+        "target_proxy_name": "target-http-proxy",
+        "backend_target_type": "BACKEND_SERVICE",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "region": "asia-northeast1",
+        "backend_scope": "asia-northeast1-b",
+        "backend_name": "crm-lb-neg"
+      }
+    },
+    "timestamp": "2025-05-22T05:46:54.303858Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T05:47:04.652952567Z"
+  },
+  {
+    "insertId": "1aocz6eeupg7s",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1113",
+      "status": 302,
+      "responseSize": "5713",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:56295",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.449331s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "network_name": "qin",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_name": "crm-lb-neg",
+        "target_proxy_name": "target-http-proxy",
+        "region": "asia-northeast1",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "backend_scope": "asia-northeast1-b",
+        "project_id": "provisional-ppm",
+        "backend_scope_type": "ZONE",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_target_name": "lb-backend-service-hash"
+      }
+    },
+    "timestamp": "2025-05-22T05:47:03.128369Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T05:47:04.652952567Z"
+  },
+  {
+    "insertId": "1amx5nvey4bgk",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1158",
+      "status": 302,
+      "responseSize": "5713",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:56295",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.155979s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "region": "asia-northeast1",
+        "backend_scope_type": "ZONE",
+        "backend_scope": "asia-northeast1-b",
+        "backend_target_name": "lb-backend-service-hash",
+        "url_map_name": "lb-web01-web02",
+        "target_proxy_name": "target-http-proxy",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "backend_target_type": "BACKEND_SERVICE",
+        "network_name": "qin",
+        "project_id": "provisional-ppm",
+        "backend_name": "crm-lb-neg",
+        "forwarding_rule_name": "lb-front-service"
+      }
+    },
+    "timestamp": "2025-05-22T05:47:45.268707Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T05:47:54.708967035Z"
+  },
+  {
+    "insertId": "1rbg46tf10txfv",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "567",
+      "status": 200,
+      "responseSize": "6659",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:56298",
+      "referer": "http://172.28.4.200/NewCRMSystem/Main.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.034298s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_name": "crm-lb-neg",
+        "backend_scope": "asia-northeast1-b",
+        "backend_target_name": "lb-backend-service-hash",
+        "target_proxy_name": "target-http-proxy",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "network_name": "qin",
+        "region": "asia-northeast1",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_type": "BACKEND_SERVICE",
+        "project_id": "provisional-ppm",
+        "backend_scope_type": "ZONE",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "forwarding_rule_name": "lb-front-service"
+      }
+    },
+    "timestamp": "2025-05-22T05:49:40.704091Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T05:49:43.941203686Z"
+  },
+  {
+    "insertId": "f17h8eex6gpk",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1158",
+      "status": 302,
+      "responseSize": "5713",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:56298",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.210221s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_target_name": "lb-backend-service-hash",
+        "project_id": "provisional-ppm",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "url_map_name": "lb-web01-web02",
+        "backend_scope": "asia-northeast1-b",
+        "backend_target_type": "BACKEND_SERVICE",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_scope_type": "ZONE",
+        "target_proxy_name": "target-http-proxy",
+        "network_name": "qin",
+        "backend_name": "crm-lb-neg",
+        "region": "asia-northeast1",
+        "backend_type": "NETWORK_ENDPOINT_GROUP"
+      }
+    },
+    "timestamp": "2025-05-22T05:50:12.445005Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T05:50:13.962831887Z"
+  },
+  {
+    "insertId": "1g73h1cdsnxt",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "453",
+      "status": 200,
+      "responseSize": "6733",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.50.29:59368",
+      "serverIp": "172.28.4.11:80",
+      "latency": "1.006488s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "network_name": "qin",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "backend_scope": "asia-northeast1-b",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "region": "asia-northeast1",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_type": "BACKEND_SERVICE",
+        "backend_scope_type": "ZONE",
+        "backend_target_name": "lb-backend-service-hash",
+        "forwarding_rule_name": "lb-front-service",
+        "target_proxy_name": "target-http-proxy",
+        "project_id": "provisional-ppm",
+        "backend_name": "crm-lb-neg"
+      }
+    },
+    "timestamp": "2025-05-22T05:50:19.409054Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T05:50:24.154215524Z"
+  },
+  {
+    "insertId": "dx77k7dkim7",
+    "jsonPayload": {
+      "backendTargetProjectNumber": "projects/580787875484",
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry"
+    },
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "1149",
+      "status": 302,
+      "responseSize": "5713",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.50.29:59422",
+      "referer": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "serverIp": "172.28.4.11:80",
+      "latency": "0.248842s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "backend_scope": "asia-northeast1-b",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "region": "asia-northeast1",
+        "project_id": "provisional-ppm",
+        "backend_scope_type": "ZONE",
+        "network_name": "qin",
+        "backend_target_type": "BACKEND_SERVICE",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_name": "lb-backend-service-hash",
+        "target_proxy_name": "target-http-proxy",
+        "backend_name": "crm-lb-neg",
+        "forwarding_rule_name": "lb-front-service"
+      }
+    },
+    "timestamp": "2025-05-22T05:50:36.648724Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T05:50:41.112750967Z"
+  },
+  {
+    "insertId": "1rabx00f12mssp",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "567",
+      "status": 200,
+      "responseSize": "6659",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.46.187:56298",
+      "referer": "http://172.28.4.200/NewCRMSystem/Main.aspx",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.040313s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "network_name": "qin",
+        "backend_scope": "asia-northeast1-b",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_name": "lb-backend-service-hash",
+        "project_id": "provisional-ppm",
+        "matched_url_path_rule": "/NewCRMSystem/",
+        "forwarding_rule_name": "lb-front-service",
+        "backend_scope_type": "ZONE",
+        "backend_name": "crm-lb-neg",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "target_proxy_name": "target-http-proxy",
+        "region": "asia-northeast1",
+        "backend_target_type": "BACKEND_SERVICE"
+      }
+    },
+    "timestamp": "2025-05-22T05:56:01.499162Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T05:56:04.693077016Z"
+  },
+  {
+    "insertId": "1debc12exuzr8",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.loadbalancing.type.LoadBalancerLogEntry",
+      "backendTargetProjectNumber": "projects/580787875484"
+    },
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "http://172.28.4.200/NewCRMSystem/frmLogin.aspx",
+      "requestSize": "514",
+      "status": 200,
+      "responseSize": "6659",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "remoteIp": "10.7.50.32:57658",
+      "serverIp": "172.28.4.10:80",
+      "latency": "0.050052s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "internal_http_lb_rule",
+      "labels": {
+        "forwarding_rule_name": "lb-front-service",
+        "project_id": "provisional-ppm",
+        "target_proxy_name": "target-http-proxy",
+        "url_map_name": "lb-web01-web02",
+        "backend_target_type": "BACKEND_SERVICE",
+        "region": "asia-northeast1",
+        "backend_scope": "asia-northeast1-b",
+        "backend_type": "NETWORK_ENDPOINT_GROUP",
+        "network_name": "qin",
+        "backend_target_name": "lb-backend-service-hash",
+        "backend_scope_type": "ZONE",
+        "backend_name": "crm-lb-neg",
+        "matched_url_path_rule": "/NewCRMSystem/"
+      }
+    },
+    "timestamp": "2025-05-22T05:59:22.875001Z",
+    "severity": "INFO",
+    "logName": "projects/provisional-ppm/logs/loadbalancing.googleapis.com%2Frequests",
+    "receiveTimestamp": "2025-05-22T05:59:24.136838493Z"
+  }
+]

@@ -18,7 +18,7 @@
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 21, '0506-0940-1000')">0506-0940-1000</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 22, '0506-1155-1210')">0506-1155-1210</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 23, '0506-0940-0955')">0506-0940-0955</div> -->
-      <div style="cursor:pointer" @click="getContentTotal('24', 24, '0504-0940-0955')">0504-0940-0955-total</div>
+      <!-- <div style="cursor:pointer" @click="getContentTotal('24', 24, '0504-0940-0955')">0504-0940-0955-total</div>
       <div style="cursor:pointer" @click="getContentTotal('25', 25, '0505-0940-0955')">0505-0940-0955-total</div>
       <div style="cursor:pointer" @click="getContentTotal('23', 23, '0506-0940-0955')">0506-0940-0955-total</div>
       <div style="cursor:pointer" @click="getContentTotal('31', 31, '0504-1155-1210')">0504-1155-1210-total</div>
@@ -38,7 +38,9 @@
 
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 30, '0504-1410-1425')">0504-1410-1425</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 28, '0505-1410-1425')">0505-1410-1425</div>
-      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 29, '0506-1410-1425')">0506-1410-1425</div>
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 29, '0506-1410-1425')">0506-1410-1425</div> -->
+
+      <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs' , 33, '0522')">0522</div>
 
       <!-- <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent('logs', 8, '8031-0832')">31-32</div>
       <div style="cursor:pointer;margin-bottom: 20px;" @click="getContent2('logs', 7, '0830-0831-time')">0830-0831-time</div>
@@ -93,6 +95,7 @@ import jsonData29 from './downloaded-logs-20250506-1410-1425.json'
 import jsonData30 from './downloaded-logs-20250504-1410-1425.json'
 import jsonData31 from './downloaded-logs-20250504-1155-1210.json'
 import jsonData32 from './downloaded-logs-20250505-1155-1210.json'
+import jsonData33 from './downloaded-logs-20250522-140554.json'
 export default {
   data() {
     return {
@@ -128,7 +131,8 @@ export default {
         29: jsonData29,
         30: jsonData30,
         31: jsonData31,
-        32: jsonData32
+        32: jsonData32,
+        33: jsonData33
       }
     }
   },
